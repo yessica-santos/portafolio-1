@@ -1,0 +1,115 @@
+body{
+    font-family:'Poppins',sans-serif;
+    background:#fff7fc;
+    color:#4d4d4d;
+}
+
+.navbar{
+    background:white;
+}
+
+.logo{
+    color:#c26df5;
+}
+
+.hero-card,
+.about-card,
+.cv-card,
+.blog-card{
+    background:white;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(180,120,255,.15);
+}
+
+.perfil-img{
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #f8d9ff;
+}
+
+.text-gradient{
+    background:linear-gradient(
+        90deg,
+        #ff8fd8,
+        #b67dff
+    );
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.btn-pastel{
+    background:#d89cff;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:20px;
+}
+
+.btn-pastel:hover{
+    background:#c278ff;
+    color:white;
+}
+
+.section-title{
+    color:#a75ef7;
+    margin-bottom:30px;
+    font-weight:700;
+}
+
+.project-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.contact-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.contact-box a{
+    text-decoration:none;
+    color:#7b5bbd;
+    background:#f8eaff;
+    padding:10px 15px;
+    border-radius:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skills span{
+    background:#f4d9ff;
+    padding:10px 15px;
+    border-radius:20px;
+}
+
+footer{
+    background:#fbe8ff;
+}
+
+.socials a{
+    color:#b45fff;
+    font-size:2rem;
+    margin:10px;
+}
+
+html{
+    scroll-behavior:smooth;
+}
